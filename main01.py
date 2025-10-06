@@ -1,5 +1,5 @@
 print("welcome to the pattern Generator and Number analyzer")
-print("This program allows you to generate various patterns and analyze numbers.")
+
 
 
 while(True):
@@ -29,8 +29,6 @@ while(True):
 
     if user_choice == 1:
         n = int(input("enter the number of rows for the pattern:"))
-        for row in range(0,n):
-            for i in range(1, row+1):
-                print("*" * i)
-
-                print()
+        for i in range(1,n +1):
+            print("*" * i)
+        print()
